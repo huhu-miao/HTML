@@ -1,0 +1,49 @@
+/* table spacing */
+table{
+    width: 1000px; 
+}
+
+td:nth-child(1){
+    width: 180px;
+}
+
+td:nth-child(2){
+    width: 180px;
+}
+
+td:nth-child(3){
+    width: 180px;;
+}
+
+td:nth-child(4){
+    width: 460px;
+}
+
+th, td{
+    padding: 5px;
+}
+
+/* table border*/
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+/* table head background color*/
+.table_head{
+    background-color:gold
+}
+/* name column background color*/
+#name{
+    background-color:LemonChiffon
+}
+
+/* Searching input box style*/
+.searchbox{
+    width: 561px;
+    height: 48px; 
+    border: 2px solid darkgray;
+    border-radius: 24px;
+}
